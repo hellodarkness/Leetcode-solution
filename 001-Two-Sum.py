@@ -1,7 +1,7 @@
-//Given an array of integers, return indices of the two numbers such that they add up to a specific target.
-//You may assume that each input would have exactly one solution, and you may not use the same element twice.
-
-//O(n)
+# Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+# You may assume that each input would have exactly one solution, and you may not use the same element twice.
+#
+# O(n)
 class Solution(object):
     def twoSum(self, nums, target):
         if len(nums) <= 1:
@@ -13,7 +13,7 @@ class Solution(object):
             else:
                 dict[target - nums[i]] = i
 
-//O(n^2)
+# O(n^2)
 class Solution(object):
     def twoSum(self, nums, target):
         l=len(nums)-1

@@ -1,4 +1,4 @@
-//Write a function that takes a string as input and returns the string reversed.
+# Write a function that takes a string as input and returns the string reversed.
 
 class Solution2(object):
     def reverseString(self, s):
